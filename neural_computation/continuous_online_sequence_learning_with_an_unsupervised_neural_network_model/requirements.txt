@@ -1,0 +1,5 @@
+nupic==1.0.3
+htmresearch==0.0.2
+PyBrain==0.3
+hpelm==1.0.4
+rpy2==2.8.6
