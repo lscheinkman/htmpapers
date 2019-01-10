@@ -23,6 +23,7 @@
 import importlib
 
 from optparse import OptionParser
+import nupic_output
 import matplotlib.pyplot as plt
 import matplotlib.gridspec as gridspec
 from matplotlib import rcParams
@@ -34,16 +35,13 @@ from nupic.frameworks.opf.model_factory import ModelFactory
 from nupic.frameworks.opf.prediction_metrics_manager import MetricsManager
 from nupic.frameworks.opf import metrics
 # from htmresearch.frameworks.opf.clamodel_custom import CLAModel_custom
-import nupic_output
 
 
 import numpy as np
-import matplotlib.pyplot as plt
 import pandas as pd
 import yaml
 
 from htmresearch.support.sequence_learning_utils import *
-from matplotlib import rcParams
 rcParams.update({'figure.autolayout': True})
 rcParams['pdf.fonttype'] = 42
 
