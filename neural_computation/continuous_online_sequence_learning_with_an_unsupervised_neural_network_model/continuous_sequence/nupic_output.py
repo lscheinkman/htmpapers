@@ -29,7 +29,7 @@ from abc import ABCMeta, abstractmethod
 # Try to import matplotlib, but we don't have to.
 try:
   import matplotlib
-  matplotlib.use('TKAgg')
+  matplotlib.use('Agg')
   import matplotlib.pyplot as plt
   import matplotlib.gridspec as gridspec
   from matplotlib.dates import date2num
